@@ -1,24 +1,19 @@
-body{
-    background-image:url(http://i.imgur.com/EE8gLXu.png), url(http://i.imgur.com/b7YpbY8.png);
-    background-repeat: no-repeat;
-    padding: 250px 0 0 80px;
-
-	}
-
+body {
+    background:url('images/stripes.png'), url('images/background.jpg');
+    background-color:#525a6a;
+    background-repeat:repeat-x, no-repeat;
+    background-size:auto, cover;
+}
+section {
+    margin: 250px 0 0 80px;
+}
 hr {
-	border-color: red;
+	border-color: #fd6e6e;
 	width: 3%;
 	margin: 0 0 0 0;
 }
-h2{
-color: white;
-font-weight: normal;
+p {
+color: #fff;
 font-family: verdana, sans-serif;
 font-size: 20px;
-}
-
-h1{
-	color: white;
-	font-family: Trebuchet, sans-serif;
-	font-weight: bold;
 }
